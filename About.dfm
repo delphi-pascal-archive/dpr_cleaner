@@ -1,0 +1,77 @@
+object FrmAbout: TFrmAbout
+  Left = 731
+  Top = 109
+  BorderIcons = []
+  BorderStyle = bsDialog
+  Caption = 'A propos de DePoC ...'
+  ClientHeight = 131
+  ClientWidth = 441
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -14
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnCreate = FormCreate
+  PixelsPerInch = 120
+  TextHeight = 17
+  object LblVersion: TLabel
+    Left = 5
+    Top = 10
+    Width = 430
+    Height = 17
+    Alignment = taCenter
+    AutoSize = False
+    Caption = '-----'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object Label1: TLabel
+    Left = 5
+    Top = 37
+    Width = 430
+    Height = 17
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'by'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object Label2: TLabel
+    Left = 5
+    Top = 58
+    Width = 430
+    Height = 17
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'f0xi'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -15
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+    Transparent = True
+  end
+  object ButtonOk: TButton
+    Left = 160
+    Top = 95
+    Width = 121
+    Height = 26
+    Caption = 'Ok'
+    ModalResult = 1
+    TabOrder = 0
+  end
+end
